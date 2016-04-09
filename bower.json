@@ -1,0 +1,23 @@
+{
+  "name": "stylishcanine",
+  "homepage": "http://stylishcanine.com",
+  "authors": [
+    "Peter deHaan <peter@deseloper.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "WTFPL",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.3",
+    "letteringjs": "Lettering.js#~0.7.0"
+  }
+}

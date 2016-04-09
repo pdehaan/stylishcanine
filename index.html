@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Stylish Canine</title>
+  <style>
+    body {
+      font-family: "Comic Sans MS";
+      font-size: 48pt;
+      text-align: center;
+    }
+
+    h1,
+    h2 {
+      margin: 0;
+      padding: 0;
+      text-shadow: 1px 2px 3px #666;
+    }
+
+    h2 {
+      color: #666;
+    }
+
+    h1 .char1,
+    h1 .char6,
+    h1 .char11 {
+      color: red;
+    }
+    h1 .char2,
+    h1 .char7,
+    h1 .char12 {
+      color: orange;
+    }
+    h1 .char3,
+    h1 .char8,
+    h1 .char13 {
+      color: yellow;
+    }
+    h1 .char4,
+    h1 .char9,
+    h1 .char14 {
+      color: green;
+    }
+    h1 .char5,
+    h1 .char10,
+    h1 .char15 {
+      color: blue;
+    }
+  </style>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/letteringjs/jquery.lettering.js"></script>
+</head>
+<body>
+
+  <h1>Stylish Canine</h1>
+  <h2>Coming &nbsp; soon!</h2>
+  <p>&#x1f436;</p>
+
+  <script>
+      $(document).ready(function() {
+        $("h1").lettering();
+        $("h2").lettering()
+          .children("span")
+          .css({
+            display: 'inline-block',
+            transform: 'rotate(-15deg)'
+          });
+      });
+  </script>
+
+</body>
+</html>
